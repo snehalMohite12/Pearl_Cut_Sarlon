@@ -1,0 +1,163 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  height: auto;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.dashboard-wrapper {
+  min-height: 100vh;
+  background-image: url('../assets/images/dashboard-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+/* Top Navbar */
+.top-nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 40px;
+
+
+}
+
+.headingline-content {
+  margin-left: 200px;
+  margin-top: 200px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  color: #363636;
+}
+
+.headingLineText{
+  text-align: left;
+  font-family: 'Playfair Display' !important;
+  line-height: 70px !important;
+  font-weight: 900 !important;
+  color: #363636;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.nav-tabs {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  padding: 0;
+  margin-left: 500px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.nav-tabs li {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: background 0.3s;
+  float: right;
+}
+
+.nav-tabs li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.nav-tabs li.active {
+  background: white;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.serviceSection {
+  margin: 20px;
+  height: 500px;
+  width: 300px;
+  background: rgb(255, 255, 255);
+}
+
+.serviceSection:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.serviceSectionImg {
+  width: 100%;
+  height: 70%;
+}
+
+.serviceSection p {
+  padding-top: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-family: "Montserrat";
+  letter-spacing: 2px;
+  color: #363636;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.infoSection {
+  background-image: url('../assets/images/second-section-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  opacity: 0.6;
+}
+
+.infoTextSection {
+  width: 50%;
+  padding: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  color: #363636;
+  margin-top: 10%;
+}
+
+.infoHead {
+  text-align: left;
+  font-family: 'Playfair Display' !important;
+  line-height: 70px !important;
+  font-weight: 900 !important;
+  color: #ffffff;
+  font-size: 72px;
+  letter-spacing: 2px;
+}
+
+.infoPara {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 10px;
+  font-weight: 600 !important;
+  font-size: 14px;
+}
+
+.infoOfferSection{
+  margin-top: 100px;
+  margin-right: 10%;
+  padding: 5px;
+  background-color: #ffffff;
+  height: fit-content;
+  width: 50%;
+}
